@@ -58,7 +58,7 @@ sprintButton.Parent = frame
 local remakeButton = Instance.new("TextButton")
 remakeButton.Size = UDim2.new(0, 182, 0, 43)
 remakeButton.Position = UDim2.new(0.031, 0, 0.404, 0)
-remakeButton.Text = "Executor in roblox (KRNL)"
+remakeButton.Text = "Zombie merge script (op)"
 remakeButton.TextColor3 = Color3.new(1, 1, 1)
 remakeButton.TextScaled = true
 remakeButton.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -153,7 +153,7 @@ sprintButton.MouseButton1Click:Connect(function()
 end)
 
 remakeButton.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FreezyWare/Remake-Executor/main/Executor/Krnl-Legacy.Lua"))()
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Zombie%20Merge%20Tycoon"))()"))()
 end)
 
 mm2Button.MouseButton1Click:Connect(function()
