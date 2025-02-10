@@ -153,7 +153,7 @@ sprintButton.MouseButton1Click:Connect(function()
 end)
 
 remakeButton.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Zombie%20Merge%20Tycoon"))()"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Zombie%20Merge%20Tycoon"))()
 end)
 
 mm2Button.MouseButton1Click:Connect(function()
